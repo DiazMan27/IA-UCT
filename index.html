@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA para Docentes UCT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">IA UCT</a>
+        <!-- Botón de hamburguesa para móvil -->
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        
+        <!-- Navbar para desktop -->
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="articulos.html">Artículos</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Sidebar para móvil -->
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="articulos.html">Artículos</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main class="home-container">
+        <div class="home-text">
+            <h1>Inteligencia Artificial para Docentes Universitarios</h1>
+            <p class="subtitle">Descubre cómo transformar tu práctica docente con herramientas de IA</p>
+            <a href="articulos.html" class="btn-primary">Explorar Artículos</a>
+        </div>
+
+        <div class="topics-grid">
+            <a href="tema-1.html" class="topic-circle" data-topic="presentaciones">
+                <div class="circle">
+                    <span>Presentaciones con IA</span>
+                </div>
+            </a>
+            <a href="tema-2.html" class="topic-circle" data-topic="contenido">
+                <div class="circle">
+                    <span>Contenido Educativo</span>
+                </div>
+            </a>
+            <a href="tema-3.html" class="topic-circle" data-topic="evaluacion">
+                <div class="circle">
+                    <span>Evaluación Automatizada</span>
+                </div>
+            </a>
+            <a href="tema-4.html" class="topic-circle" data-topic="investigacion">
+                <div class="circle">
+                    <span>Investigación Académica</span>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer id="contacto">
+        <p>Universidad Católica de Temuco - Departamento de Innovación Educativa</p>
+        <p>contacto.ia@uct.cl | +56 9 1234 5678</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
